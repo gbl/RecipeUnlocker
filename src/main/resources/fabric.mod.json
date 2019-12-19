@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "recipeunlocker",
+    "version": "1.15-fabric0.4.23-1.5",
+    "environment": "client",
+    "entrypoints": {
+        "client": [ "de.guntram.mcmod.recipeunlocker.RecipeUnlocker" ],
+        "notyetmodmenu": [ "de.guntram.mcmod.recipeunlocker.handler.MMConfigurationHandler" ]
+    },
+    "custom": {
+        "modmenu:clientsideOnly": true
+    },
+    "mixins": [
+      	"mixins.recipeunlocker.json"
+    ],
+    "depends": {
+      "fabric": "*"
+    },
+    "recommends": {
+      "modmenu" : "*"
+    },
+    "name": "RecipeUnlocker",
+    "description": "Unlock everything in the Recipe book",
+    "icon": "pack.png",
+    "authors": [ "Giselbaer" ],
+    "contact": {
+        "homepage": "https://minecraft.curseforge.com/projects/recipeunlocker",
+        "sources": "https://github.com/gbl/RecipeUnlocker",
+        "issues": "https://github.com/gbl/RecipeUnlocker/issues"
+    }
+}

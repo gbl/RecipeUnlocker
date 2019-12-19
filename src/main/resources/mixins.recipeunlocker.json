@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "package": "de.guntram.mcmod.recipeunlocker.mixin",
+    "refmap": "RecipeUnlocker-refmap.json",
+    "minVersion": "0.6",
+    "client": [
+        "RecipeBookMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
