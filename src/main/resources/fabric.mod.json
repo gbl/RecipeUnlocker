@@ -17,9 +17,7 @@
     },
     "name": "RecipeUnlocker",
     "description": "Unlock everything in the Recipe book",
-    "icon": "pack.png",
     "authors": [ "Giselbaer" ],
-    "contributors": [ "Madis0" ],
     "contact": {
         "homepage": "https://github.com/gbl/RecipeUnlocker",
         "sources": "https://github.com/gbl/RecipeUnlocker",
